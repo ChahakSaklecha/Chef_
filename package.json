@@ -1,0 +1,46 @@
+
+{
+  "name": "chef-pm",
+  "version": "1.0.11",
+  "scripts": {
+    "build": "npm install && npx tsc",
+    "chef": "node ./build/index.js"
+  },
+  "description": "Chef!",
+  "main": "index.js",
+  "author": "mesosan",
+  "year": "2023",
+  "license": "MIT",
+  "bin": {
+    "chef": "./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theSoberSobber/Chef.git"
+  },
+  "homepage": "https://theSoberSobber.github.io/Chef/",
+  "keywords": [
+    "PackageManager",
+    "Package",
+    "Manager",
+    "ChefPM",
+    "Chef",
+    "npm",
+    "pnpm",
+    "yarn",
+    "minimal"
+  ],
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "@types/decompress": "^4.2.4",
+    "@types/fs-extra": "^9.0.13",
+    "axios": "^0.27.2",
+    "decompress": "^4.2.1",
+    "fs-extra": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.6.4"
+  }
+}
